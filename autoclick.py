@@ -22,7 +22,7 @@ def saveFile(message):
 
 
 def epidemic_auto_checkin():
-    browser.get('http://yiqing.ctgu.edu.cn/wx/index/login.do?currSchool=ctgu&CURRENT_YEAR=2019&showWjdc=false&studentShowWjdc=false')
+    browser.get('http://yiqing.ctgu.edu.cn/wx/health/main.do')
     # 将窗口最大化
     browser.maximize_window()
     # 格式是PEP8自动转的
