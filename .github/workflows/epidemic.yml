@@ -28,7 +28,7 @@ jobs:
         - name: Install ChromeDriver
           uses: nanasess/setup-chromedriver@master
           with:
-            chromedriver-version: '93.0.4577.15'
+            chromedriver-version: '92.0.4515.107'
         - name: 'Get Date'
           # run: echo "::set-env name=REPORT_DATE::$(TZ=':Asia/Shenzhen' date '+%Y-%m-%d %T %Z')"
           # run: echo "::set-env name=REPORT_DATE::$(TZ=':Asia/Shenzhen' date -u -d"+8 hour" +'%Y-%m-%d %H:%M:%S')"
