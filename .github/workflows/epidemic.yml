@@ -17,6 +17,9 @@ jobs:
           uses: actions/setup-python@v1
           with:
             python-version: '3.7'
+        - name: 'clean cache of chrome'
+          run: |
+            sudo mv ~/.cache/google-chrome
         - name: 'Install requirements'
           run: |
             python -m pip install --upgrade pip
